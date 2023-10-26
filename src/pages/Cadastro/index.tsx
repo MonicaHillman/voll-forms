@@ -74,7 +74,7 @@ export default function Cadastro() {
                     </form>
                 </>) : (
                 <>
-                    <h2>Agora, os dados técnicos:</h2>
+                    <h2>Agora, mais alguns dados sobre você:</h2>
                     <form onSubmit={handleSubmit}>
                         <CampoDigitacao
                             tipo="tel"
